@@ -1,10 +1,10 @@
 """
 download_model.py
 ─────────────────
-Downloads the pre-converted Llama-Prompt-Guard-2-22M ONNX model
+Downloads the pre-converted Llama-Prompt-Guard-2-86M ONNX model
 from the community repo (no Meta approval needed).
 
-Source: gravitee-io/Llama-Prompt-Guard-2-22M-onnx
+Source: gravitee-io/Llama-Prompt-Guard-2-86M-onnx
 
 Usage:
     python download_model.py
@@ -13,7 +13,7 @@ Usage:
 import sys
 from pathlib import Path
 
-MODEL_REPO = "gravitee-io/Llama-Prompt-Guard-2-22M-onnx"
+MODEL_REPO = "gravitee-io/Llama-Prompt-Guard-2-86M-onnx"
 OUTPUT_DIR = Path(__file__).parent / "model_onnx"
 
 

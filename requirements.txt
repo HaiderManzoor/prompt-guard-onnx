@@ -2,3 +2,6 @@ numpy<2
 transformers>=4.40,<5
 onnxruntime>=1.17.0
 huggingface-hub>=0.20
+
+# Optional: For PIGuard support (uncomment if using PIGuard)
+# torch>=2.0.0

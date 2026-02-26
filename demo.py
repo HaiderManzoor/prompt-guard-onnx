@@ -1,7 +1,7 @@
 """
 demo.py
 ───────
-Quick demo of the Prompt Guard 2 22M ONNX classifier.
+Quick demo of the Prompt Guard 2 86M ONNX classifier.
 
 Usage:
     python demo.py
@@ -11,7 +11,7 @@ from prompt_guard import PromptGuard
 
 
 def main():
-    print("🔒 Prompt Guard 2 · 22M · ONNX Demo")
+    print("🔒 Prompt Guard 2 · 86M · ONNX Demo")
     print("=" * 50)
 
     guard = PromptGuard()

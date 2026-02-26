@@ -1,0 +1,5 @@
+# Additional requirements for PIGuard support
+# Install with: pip install -r requirements.txt -r requirements-piguard.txt
+
+torch>=2.0.0
+
